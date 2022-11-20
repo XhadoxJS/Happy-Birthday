@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(105, 0, 105);
+    width: 1200px;
+}
+header {
+    height: auto;
+    background-color: rgb(105, 0, 105);
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fullName {
+    font-size: 40px;
+    font-family: "Brush Script MT", cursive;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: small;
+    font-family: cursive;
+}
+
+.bubu {
+    padding-top: 20%;
+}
+
+.main {
+    color: rgb(240, 240, 240);
+    height: auto;
+}
+
+.message{
+    text-align: center;
+}
+.birthdayMessage {
+    width: 400px;
+}
+.main.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.message button {
+    margin: auto;
+    display: block;
+}
+
+h1.someMemories {
+    text-align: center;
+}
+
+.photo.one {
+    width: 200px;
+    height: 275px;
+}
+
+.photo.two {
+    width: 200px;
+    height: 275px;
+}
+
+.photo.three {
+    width: 200px;
+    height: 275px;
+}
+
+.photo.four {
+    width: 200px;
+    height: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.memories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.memory {
+    width: 300px;
+    height: 350 px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(240, 240, 240);
+}
+
+.main.third {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 25px;
+    background-color: rgb(52, 0, 52);
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 5px;
+    background-color: rgb(52, 0, 52);
+}
